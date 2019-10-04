@@ -20,6 +20,7 @@ public class Main {
 
         // Prints out each coin values
         piggyBank.forEach(c -> System.out.println(c.getNumAdded()));
+        System.out.println("\n");
 
 	    double bankTotal = 0.00;
 	    for(int i = 0; i < piggyBank.size(); i++)
@@ -28,5 +29,6 @@ public class Main {
         }
 
         System.out.println("The piggy bank holds " + fp.format(bankTotal));
+        System.out.println("\n");
     }
 }
